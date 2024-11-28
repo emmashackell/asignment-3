@@ -34,9 +34,9 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
-  --bs-success: #198754;
+  --bs-primary: #bc1a99;
+  --bs-secondary: #84b9ee;
+  --bs-success: #9ce7c4;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -61,11 +61,11 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #98c6f4;
   --bs-body-bg: #fff;
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: #387dc1;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.5rem;
   --bs-border-radius-sm: 0.25rem;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
+  --bs-link-color: #de76ee;
+  --bs-link-hover-color: #961569;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -101,7 +101,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgb(243, 166, 166);
 }
 
 hr {
@@ -592,7 +592,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color:#0dcaf0;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -605,7 +605,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color:#0dcaf0;
   border: 0.125rem solid var(--bs-border-color);
   border-radius: 0.5rem;
   max-width: 100%;
@@ -1744,9 +1744,9 @@ progress {
   --bs-table-border-color: var(--bs-border-color);
   --bs-table-accent-bg: transparent;
   --bs-table-striped-color: var(--bs-body-color);
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-striped-bg: rgba(215, 79, 186, 0.05);
   --bs-table-active-color: var(--bs-body-color);
-  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-active-bg: rgba(255, 113, 184, 0.877);
   --bs-table-hover-color: var(--bs-body-color);
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
@@ -1815,14 +1815,14 @@ progress {
 }
 
 .table-primary {
-  --bs-table-color: #000;
-  --bs-table-bg: #d1f2eb;
-  --bs-table-border-color: #bcdad4;
-  --bs-table-striped-bg: #c7e6df;
+  --bs-table-color: #f57ad8;
+  --bs-table-bg: #f57ad8;
+  --bs-table-border-color: #f57ad8;
+  --bs-table-striped-bg: #f57ad8;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #bcdad4;
+  --bs-table-active-bg: #f57ad8;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #c1e0d9;
+  --bs-table-hover-bg: #f57ad8;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
